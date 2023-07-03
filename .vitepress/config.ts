@@ -18,11 +18,6 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [
-      {
-        icon: "github",
-        link: "https://github.com/synpixel/roblox-luau-style-guide",
-      },
-    ],
+    socialLinks: [],
   },
 });
