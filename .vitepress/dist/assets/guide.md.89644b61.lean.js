@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as l,U as n}from"./chunks/framework.76b79cb5.js";const F=JSON.parse('{"title":"Roblox Luau Style Guide","description":"","frontmatter":{},"headers":[],"relativePath":"guide.md","filePath":"guide.md"}'),e={name:"guide.md"},o=n("",77),t=[o];function p(c,i,r,y,D,d){return a(),l("div",null,t)}const C=s(e,[["render",p]]);export{F as __pageData,C as default};
