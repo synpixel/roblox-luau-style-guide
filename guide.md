@@ -84,6 +84,15 @@ tmodule={};function tmodule:_CRT_CAR(pos)return{name=[[car]],pos=pos}end --funct
 return tmodule
 ```
 
+Favor using section comments, they make sections easier to spot:
+
+```lua
+--functions
+function _HLLO_WORLD()print[[Hello world]]end;function _PRNT_NUM()print(([[%s]]):format(na))end
+--variables
+na=4
+```
+
 ## Typechecking
 
 Typechecking is another "industry standard" that just makes the process of writing your code longer. Why do you need typechecking? Just be competent enough not to make silly mistakes.
@@ -228,15 +237,4 @@ print[[Hello world]]
 
 ```lua
 print([[Hello world]])
-```
-
-## Comments
-
-- Favor using section comments, they make sections easier to spot:
-
-```lua
---functions
-function _HLLO_WORLD()print[[Hello world]]end;function _PRNT_NUM()print(([[%s]]):format(na))end
---variables
-na=4
 ```
