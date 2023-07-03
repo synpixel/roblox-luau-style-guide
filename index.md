@@ -11,7 +11,7 @@ hero:
       link: /guide
     - theme: alt
       text: View on GitHub
-      link: /api-examples
+      link: https://github.com/synpixel/roblox-luau-style-guide
 
 features:
   - title: Reliable
