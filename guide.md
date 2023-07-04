@@ -184,7 +184,7 @@ function _GBL()print[[Bye world]]end;_GBL();_GRGL()
 - Use parentheses around the conditions in if, while, or repeat blocks. They aren't necessary in Luau, but it makes your code more idiomatic.
 
 ```lua
-if(bCondition)then end;while(bCondition) do end;repeat until(bCondition)
+if(bCondition)then end;while(bCondition)do end;repeat until(bCondition)
 ```
 
 - Don't use `do` blocks to limit the scope of a variable, just append a random sequence of characters after your identifier so you can't shadow it!
