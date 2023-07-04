@@ -55,7 +55,7 @@ function tmodule:_CRT_BAZ()print[[Baz!!]]end
 Next, we define our **global** variables (local variables are longer to type out, stop wasting your time and write more code).
 
 ```lua
-tmodule="Hello world"
+sa="Hello world"
 ```
 
 ### A return statement
