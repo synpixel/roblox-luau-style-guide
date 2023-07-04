@@ -105,15 +105,15 @@ While keywords such as `and` and `or` let you write code faster, it also reduces
 
 ```lua
 --check bCondition
-if bCondition then
+if(bCondition)then
 --check bOrCondition
-if bOrCondition then print[[bOrCondition was truthy!]]return end --print "bOrCondition was truthy!" if bOrCondition is truthy
+if(bOrCondition)then print[[bOrCondition was truthy!]]return end --print "bOrCondition was truthy!" if bOrCondition is truthy
 --check bCondition2
-if bCondition2 then
+if(bCondition2)then
 --check bCondition3
-if bCondition3 then
+if(bCondition3)then
 --check bCondition4
-if bCondition4 then print[[All conditions are truthy!]]end --print "All conditions are truthy!" if all conditions are truthy
+if(bCondition4) then print[[All conditions are truthy!]]end --print "All conditions are truthy!" if all conditions are truthy
 end
 end
 end
@@ -184,7 +184,7 @@ function _GBL()print[[Bye world]]end;_GBL();_GRGL()
 - Use parentheses around the conditions in if, while, or repeat blocks. They aren't necessary in Luau, but it makes your code more idiomatic.
 
 ```lua
-if bCondition then end;while bCondition do end;repeat until bCondition
+if(bCondition)then end;while(bCondition) do end;repeat until(bCondition)
 ```
 
 - Don't use `do` blocks to limit the scope of a variable, just append a random sequence of characters after your identifier so you can't shadow it!
