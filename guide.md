@@ -113,7 +113,7 @@ if(bCondition2)then
 --check bCondition3
 if(bCondition3)then
 --check bCondition4
-if(bCondition4) then print[[All conditions are truthy!]]end --print "All conditions are truthy!" if all conditions are truthy
+if(bCondition4)then print[[All conditions are truthy!]]end --print "All conditions are truthy!" if all conditions are truthy
 end
 end
 end
