@@ -66,7 +66,7 @@ return tmodule
 
 ## Naming
 
-- Favor using [hungarion notation](https://en.wikipedia.org/wiki/Hungarian_notation) for identifiers. To do so, prepend the first letter of your value's datatype to its identifier.
+- Favor using [hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation) for identifiers. To do so, prepend the first letter of your value's datatype to its identifier.
 - Use abbreviations everywhere! They make code faster to write.
 - Use LOUD_SNAKE_CASE for constants or enum-like objects.
 - Use \_SYN_CASE for functions.
